@@ -25,4 +25,6 @@ def xor():
 xor()
 answer = binascii.unhexlify('6c73d5240a948c86981bc294814d')
 print strxor('attack at dusk', strxor(answer, 'attack at dawn')).encode('hex')
-
+print '5'.encode('hex')
+print '1'.encode('hex')
+print strxor('05','01')
